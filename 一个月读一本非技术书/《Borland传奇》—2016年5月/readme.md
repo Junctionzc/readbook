@@ -19,6 +19,8 @@
 
 >当然，公司创始人是否仍然是软件公司的重要人物不是判断一间软件公司唯一的指针。如果软件公司能够适当地吸引专业的管理人才来改善公司的体制是很好的事情，因为这样的公司有可能结合创新的理想，对产品的坚持以及有效率的专业管理，这是对公司以及使用者最好的保障。没有了创始人的存在，软件公司总是少了一股对于理想的坚持，不是吗？
 
+历史总是如此的相似，今天很多互联网公司不也是这样么？
+
 **这本书是讲Borland这家公司的故事，也是讲那些可敬的Borland工程师的故事。**
 
 **Carl Quinn**， Borland C／C++、dBuilder的Framework大将，以下是书中关于Carl Quinn的描述：
@@ -37,7 +39,7 @@ Kahn就在西餐厅打工，负责端盘子的工作，而Anders Hejlsberg则努
 书中关于Anders技术水平的一些细节描述：
 >由于Turbo/Borland Pascal以及Delphi的最佳化编译器都是Anders Hejlsberg撰写的，因此当Anders离开Borland之后几乎没有人能够维护编译器程序代码。Anders都是使用汇编语言(Assembly)撰写复杂的编译器程序代码，而且其品质是如此之好，不但连Chuck Jazdzewski都赞不绝口， 更麻烦的是当时Borland几乎没有工程师敢随便更动这些程序代码。
 
-**Chuck Jazdzewski**，早期复制设计Delphi使用的组件Framwork，Anders的老搭档，后来被评为Borland的首席科学家。又是一位十分低调的master，书中描述的一个彩蛋：
+**Chuck Jazdzewski**，早期负责设计Delphi使用的组件Framwork，Anders的老搭档，后来被评为Borland的首席科学家。又是一位十分低调的master，书中描述的一个彩蛋：
 >在Delphi 4中，使用者只要开启About对话盒，并且按下"Alt+chuck"，那么就可以看到下图的画面。这个简短的画面是Delphi R&D成员之一偷偷使用V8录下来并且放入Delphi 4中的，这也是第一次Chuck露脸于全世界。Chuck事先并不知情，而在以往的Delphi 1/2/3中放的人物图片则一直是Anders。这些隐藏的有趣图片以及Delphi R&D开发小组的名单在Delphi中称为"Eastern Eggs"。
 
 >![](Chuck-Delphi4d.png)
@@ -49,7 +51,7 @@ Kahn就在西餐厅打工，负责端盘子的工作，而Anders Hejlsberg则努
 
 >Danny在把Delphi的RTL和编译器移植到Linux的过程中发现了一些Linux的bug，因此，当时Danny在Linux的论坛上公布了他发现的bug，并且希望Linux的社群能够修改这些问题，如此一来Borland才能够继续研发Kylix。不过，也许是Linux的社群拥有排外的情绪，一直认为Borland不是正统的Linux软件厂商， 因此对于Danny指出的Linux bug也嗤之以鼻， 认为Danny什么都不懂就来说是Linux的bug。由于Linux论坛上的人非常的不友善，而且坚决不承认Danny提出的是bug，因此也惹得Danny非常不高兴，认为做软件的技术人员为何不能就事论事，明明有问题却死不承认。于是Danny便在Linux论坛上和这些人发动了笔战，愈吵愈轰动，最后演变成了两派人马互相批评。
 
->由于Danny无法在Linux论坛上得到结果和支持，因此一怒之下干脆自己来修改Linux的bug，好让Kylix能够继续开发下去，不再需要这些Linux社群的帮忙。这也是为什么在安装Kylix时，Kylix不但会检查使用者Linux使用的版本，并且会安装Patch档案以修改Linux操作系统的问题。Danny选择了安装额外的Patch档案的方式来解决Linux的bug，而不是直接修改Linux的核心，再由Borland分发Linux Distribution。当时，在Danny解决了Linux执行时期函数库的一些bug之后，Kylix才能够顺利地开发下去。后来，在Kylix小组开发Kylix的集成开发环境时也发现了一些XWindow的臭虫，Danny也是选择由Borland自己来修改加以解决，而不需要Linux社群的帮忙。
+>由于Danny无法在Linux论坛上得到结果和支持，因此一怒之下干脆自己来修改Linux的bug，好让Kylix能够继续开发下去，不再需要这些Linux社群的帮忙。这也是为什么在安装Kylix时，Kylix不但会检查使用者Linux使用的版本，并且会安装Patch档案以修改Linux操作系统的问题。Danny选择了安装额外的Patch档案的方式来解决Linux的bug，而不是直接修改Linux的核心，再由Borland分发Linux Distribution。当时，在Danny解决了Linux执行时期函数库的一些bug之后，Kylix才能够顺利地开发下去。后来，在Kylix小组开发Kylix的集成开发环境时也发现了一些XWindow的bug，Danny也是选择由Borland自己来修改加以解决，而不需要Linux社群的帮忙。
 
 我看完之后自己YY的一段对话：
 ```
