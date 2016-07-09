@@ -37,5 +37,8 @@ captures/
 # python compile files
 *.pyc
 
+# vscode config
+.vscode/
+
 # doc
 *.pdf
